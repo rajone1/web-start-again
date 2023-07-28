@@ -1,0 +1,45 @@
+div {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: green;
+  border: 3px solid black;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  text-align: center;
+  font-size: 35px;
+  /* animation-name: colourAnimate;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 5;
+  animation-direction: alternate-reverse; */
+  /* animation: name duration timeing function delay  iteration property direction*/
+  animation: colourAnimate ease-in 2s 4 normal;
+}
+
+/* @keyframes colourAnimate {
+  from {
+    background-color: green;
+  }
+  to {
+    background-color: red;
+  } 
+} */
+@keyframes colourAnimate {
+  0% {
+    left: 0px;
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    left: 300px;
+    background-color: red;
+    color: aliceblue;
+  }
+}
+div:hover {
+}

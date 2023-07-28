@@ -1,0 +1,36 @@
+.container {
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, 90px); */
+  grid-template-rows: repeat(1, 200px);
+  grid-auto-rows: 100%;
+}
+.a1 {
+  background-color: red;
+}
+.a2 {
+  background-color: green;
+}
+.a3 {
+  background-color: yellow;
+}
+.a4 {
+  background-color: black;
+}
+.a5 {
+  background-color: royalblue;
+}
+.a6 {
+  background-color: pink;
+}
+.a7 {
+  background-color: aqua;
+}
+.a8 {
+  background-color: darkblue;
+}
+.a9 {
+  background-color: gold;
+}

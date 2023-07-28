@@ -1,0 +1,16 @@
+h1 {
+  color: violet;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  background-image: url(122.jpg);
+
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+p {
+  background-color: aliceblue;
+}

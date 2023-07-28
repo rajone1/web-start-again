@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  /* grid-template-columns: 100px auto 100px; */
+  /* grid-template-rows: 300px 300px; */
+  /* fr = fraction ta responsive */
+
+  /* grid-template-columns: 1fr 2fr;
+  grid-template-rows: 2fr 4fr; */
+
+  /* we can write together row/column */
+  grid-template: 2fr 4fr/ 1fr 2fr;
+  /* we can use repeat  howmany , how much*/
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  /* grid-row-gap: 5px;
+  grid-column-gap: 10px; */
+  grid-gap: 5px;
+}
+
+.box1 {
+  background-color: #fda7df;
+}
+.box2 {
+  background-color: #c4e538;
+}
+.box3 {
+  background-color: #ed4c67;
+}
+.box4 {
+  background-color: #a3cb38;
+}
+.box5 {
+  background-color: #ee5a24;
+}
+.box6 {
+  background-color: #5758bb;
+}
+.box7 {
+  background-color: #f79f1f;
+}

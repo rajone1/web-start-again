@@ -1,0 +1,51 @@
+* {
+  margin: 0%;
+  padding-left: 0%;
+}
+.navbar {
+  background-color: black;
+  width: auto;
+  height: 60px;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 120px;
+}
+.icon {
+  background-color: orange;
+  font-size: 25px;
+}
+.button1 {
+  background-color: orange;
+}
+.box {
+  height: 500px;
+  display: inline-block;
+}
+
+.box-1 {
+  border: 3px solid black;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 5px;
+  background-color: rgba(255, 0, 0, 0.5);
+  display: inline-block;
+}
+.box-2 {
+  border: 3px solid black;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 5px;
+  background-color: rgba(0, 255, 0, 0.5);
+  display: inline-block;
+}
+.box-3 {
+  border: 3px solid black;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 5px;
+
+  background-color: rgba(0, 0, 255, 0.5);
+  display: inline-block;
+}

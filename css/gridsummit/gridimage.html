@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 8px;
+        grid-auto-flow: dense;
+      }
+
+      .container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .horizontal {
+        grid-column: auto/ span2;
+      }
+      .verticalal {
+        grid-row: auto / span2;
+      }
+      .main {
+        grid-column: auto / span2;
+        grid-row: auto / span2;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main"><img src="p/ (23).jpg" alt="" /></div>
+      <div class="main"><img src="p/ (24).jpg" alt="" /></div>
+      <div class="horizontal"><img src="p/ (29).jpg" alt="" /></div>
+      <div class="verticalal"><img src="p/ (32).jpg" alt="" /></div>
+      <div class="vertical"><img src="p/ (22).jpg" alt="" /></div>
+      <div class="verticalal"><img src="p/ (38).jpg" alt="" /></div>
+      <div class="main"><img src="p/ (21).jpg" alt="" /></div>
+      <div class="horizontal"><img src="p/ (36).jpg" alt="" /></div>
+      <div class="horizontal"><img src="p/ (28).jpg" alt="" /></div>
+      <div class="horizontal"><img src="p/ (31).jpg" alt="" /></div>
+    </div>
+  </body>
+</html>

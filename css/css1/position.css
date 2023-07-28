@@ -1,0 +1,40 @@
+.box-1 {
+  width: 450px;
+  height: 250px;
+  background-color: green;
+  position: relative;
+
+  margin: auto;
+}
+
+.box-2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: 100px;
+}
+
+.name {
+  border: 2px solid tomato;
+  width: 150px;
+  background-color: black;
+  color: aliceblue;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  position: sticky;
+  top: 0px;
+}
+p {
+  padding-bottom: 400px;
+}
+.shaon {
+  position: fixed;
+  bottom: 100px;
+}

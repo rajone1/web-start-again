@@ -1,0 +1,23 @@
+.box {
+  width: 400px;
+  height: 300px;
+  background-color: rgb(67, 220, 240);
+  margin: 100px auto;
+  /* transition-property: all;
+  transition-delay: 0.5s;
+  transition-duration: 1s; */
+  /* we can use cubic bezier to style */
+  /* transition-timing-function: cubic-bezier(0.1, 01.1, 0.87, -0.15);  */
+
+  /* we can write all
+  /* transition:   transition-property,duration, type: linear/cubic etc ,   */
+  transition: all 0.5s linear;
+}
+
+.box:hover {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: deeppink;
+  transform: rotate(90deg);
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: black;
+}
+.icon {
+  color: #f08804;
+  font-size: 25px;
+}
+.search {
+  background-color: #f08804;
+}
+a {
+  text-decoration: none;
+  margin-right: 200px;
+  color: white;
+}
+.a {
+  display: inline;
+}
+button {
+  display: block;
+}

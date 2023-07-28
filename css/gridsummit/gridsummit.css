@@ -1,0 +1,47 @@
+.container {
+  height: 100%;
+
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 50px 500px 50px;
+  grid-template-areas:
+    ". h h h h h h h h h h ."
+    "m m  c c c c c c c c c c "
+    "f f f f f f f f f f f f";
+}
+
+.header {
+  background-color: palevioletred;
+  grid-area: h;
+}
+.menu {
+  background-color: red;
+  grid-area: m;
+}
+.content {
+  background-color: aqua;
+  grid-area: c;
+}
+.footer {
+  background-color: blue;
+  grid-area: f;
+}
+/* .header {
+  background-color: #ed4c67;
+  grid-column: 1/-1; */
+/* or we can write
+   grid-column: 1/-1; -1 is best  
+  grid-column: 1 / span 2;*/
+/* }
+.menu {
+  background-color: #a3cb38;
+}
+.content {
+  background-color: #fda7df;
+  grid-column: 2 /-1;
+}
+.footer {
+  background-color: #5758bb;
+  grid-column: 1/-1;
+}  */

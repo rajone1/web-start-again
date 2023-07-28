@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">sign up form</h1>
+
+    <hr />
+    <br /><br /><br />
+    <label for="user">user name : </label>
+    <input
+      type="text"
+      id="user"
+      name="user name"
+      placeholder="please write your name"
+    />
+    <br />
+    <label for="email">Email:</label>
+    <input
+      type="email"
+      id="email"
+      name="usermail"
+      placeholder="please write your email"
+      required
+    />
+    <br />
+    <label for="password">password:</label>
+    <input
+      type="password"
+      id="password"
+      name="userpassword"
+      placeholder="input password"
+      required
+    />
+    <br />
+    <label for="phn">phone:</label>
+    <select name="code" id="">
+      <option value="+880">+880</option>
+      <option value="+990">+990</option>
+      <option value="+110">+110</option>
+    </select>
+
+    <input
+      type="number"
+      id="phn"
+      name="phone"
+      placeholder="123456789"
+      required
+    />
+    <br />
+    <label for="country"> country</label>
+    <input list="con" />
+    <datalist id="con">
+      <option value="bangladesh">bangladesh</option>
+      <option value="canada">canada</option>
+      <option value="australia">australia</option>
+    </datalist>
+
+    <br />
+    gender:
+    <!--value going to tha back end-->
+    <input type="radio" id="gen1" name="gender" value="male" />
+    <label for="gen1">male</label>
+
+    <input type="radio" id="gen2" name="gender" />
+    <label for="gen2">female</label>
+    <br />
+    <label for="date">Date of birth:</label>
+    <input type="date" id="date" />
+    <br />
+    <label for="">Time</label>
+    <input type="time" id="Time" name="tm" />
+    <br />
+
+    <label for="color"> colour</label>
+    <input type="color" id="color" name="cl" />
+    <br />
+    <label for="file">choose file:</label>
+    <input type="file" id="file" name="fl" />
+
+    <br />
+
+    <input type="checkbox" id="vehicles1" name="vehicles" />
+    <label for="checkbox"> i have a JOB</label>
+    <input type="checkbox" id="vehicles2" name="vehicles" />
+    <label for="checkbox"> i have a house</label>
+    <br />
+    <textarea name="comment" cols="30" rows="10">comment here</textarea>
+    <br />
+
+    <input type="submit" value="send" />
+    <input type="reset" value="reset" />
+  </body>
+</html>

@@ -1,0 +1,11 @@
+.b1 {
+  border: 5px solid green;
+  border-radius: 10px;
+}
+
+#b2 {
+  border-width: 10px;
+  border-style: dashed;
+  border-color: blue;
+  border-radius: 10px;
+}

@@ -1,0 +1,13 @@
+h2:nth-child(5) {
+  color: skyblue;
+}
+h2:first-child {
+  color: red;
+}
+p::first-letter {
+  color: tomato;
+  font-size: 25px;
+}
+h1::before {
+  content: url(icon/10.jpg);
+}

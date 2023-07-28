@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0%;
+  height: auto;
+  width: 1000px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+
+  display: inline-block;
+}
+
+#box1 {
+  background-color: red;
+  position: static;
+}
+#box2 {
+  background-color: yellow;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+#box3 {
+  background-color: pink;
+  /* absolute dela body parents tag ,parents tag r opora bege kora change hoba */
+  position: absolute;
+  top: 5px;
+}
+#box4 {
+  background-color: blue;
+  /* its mainly use navbar */
+  position: fixed;
+  left: 10px;
+}
+#box5 {
+  background-color: green;
+  /* scroll korta korta jokhon ata asbe sticky hoa jab */
+  position: sticky;
+}
+#box6 {
+  background-color: aqua;
+  height: 200px;
+  width: 300px;
+  background-image: url(/css/apnacollege/p/10.jpg);
+  background-size: cover;
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  /* text-align: end; */
+}

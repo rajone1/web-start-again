@@ -1,0 +1,26 @@
+.flexbox {
+  background-color: aqua;
+  font-size: 35px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-direction: column; */
+  /* we can use both in one */
+  /* flex-flow: wrap column; */
+  flex-flow: wrap row;
+  justify-content: space-between;
+  height: 500px;
+  align-items: flex-start;
+}
+.flexbox > div {
+  background: goldenrod;
+
+  margin: 8px;
+  padding: 5px;
+  width: 100px;
+}
+.flexbox > div:nth-child(1) {
+  /* overflow: auto; */
+
+  height: 100px;
+}

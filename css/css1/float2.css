@@ -1,0 +1,15 @@
+.imgl {
+  height: 300px;
+  width: 400px;
+  float: right;
+  padding-bottom: 10px;
+}
+.img2 {
+  height: 300px;
+  width: 400px;
+  float: left;
+  padding-bottom: 10px;
+}
+p {
+  clear: both;
+}

@@ -1,0 +1,12 @@
+div {
+  height: 300px;
+  width: 400px;
+  background-image: url(/css/apnacollege/p/11.jpg);
+  background-size: cover;
+  color: tomato;
+  /* position: relative;
+  left: 70%; */
+  /* position: absolute; */
+  position: fixed;
+  right: 0px;
+}
